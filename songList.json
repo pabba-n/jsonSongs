@@ -1,0 +1,100 @@
+[
+    {
+        "title" : "HEATED",
+        "artist" : "Beyonce", 
+        "year" : 2022,
+        "genres" : [ 
+            "Pop"
+        ]
+    },
+    {
+        "title" : "As It Was",
+        "artist" : "Harry Styles", 
+        "year" :2022,
+        "genres" : [
+            "Contemporary", "Soft-pop"
+        ]
+    },
+    {
+        "title" : "SNAP",
+        "artist" : "Rosa Linn", 
+        "year" : 2022,
+        "genres" : [
+            "Contemporary", "Soft-pop"
+        ]
+    },
+    {
+        "title" : "Dandelions",
+        "artist" : "Ruth B.", 
+        "year" : 2017,
+        "genres" : [
+            "Contemporary", "Soft-pop"
+        ]
+    },
+    {
+        "title" : "CUFF IT",
+        "artist" : "Beyonce", 
+        "year" : 2022,
+        "genres" : [
+            "Pop"
+        ]
+    },
+    {
+        "title" : "Super Freaky Girl",
+        "artist" : "Nicki Minaj", 
+        "year" : 2022,
+        "genres" : [
+            "Pop"
+        ]
+    },
+    {
+        "title" : "The Sign",
+        "artist" : "Lizzo", 
+        "year" : 2022,
+        "genres" : [
+            "Pop"
+        ]
+    },
+    {
+        "title" : "Big Poppa",
+        "artist" : "Notorious B.I.G.", 
+        "year" : 1994,
+        "genres" : [
+            "Rap"
+        ]
+    },
+    {
+        "title" : "Drop It Like It's Hot",
+        "artist" : "Snoop Dogg", 
+        "year" : 2004,
+        "genres" : [
+            "Rap"
+        ]
+    },
+    {
+        "title" : "Outta Your Mind",
+        "artist" : "Lil Jon", 
+        "year" : 2010,
+        "genres" : [
+            "Rap"
+        ]
+    },
+    {
+        "title" : "supercuts",
+        "artist" : "Jeremy Zucker", 
+        "year" : 2020,
+        "genres" : [
+            "R and B"
+        ]
+    },
+    {
+        "title" : "Your Shirt",
+        "artist" : "Chelsea Cutler", 
+        "year" : 2017,
+        "genres" : [
+            "Alternative"
+        ]
+    }
+
+    
+]
