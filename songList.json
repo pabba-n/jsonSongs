@@ -4,7 +4,7 @@
         "artist" : "Beyonce", 
         "year" : 2022,
         "genres" : [ 
-            "Pop"
+            " Pop"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "artist" : "Harry Styles", 
         "year" :2022,
         "genres" : [
-            "Contemporary", "Soft-pop"
+            " Contemporary", " Soft-pop"
         ]
     },
     {
@@ -20,7 +20,7 @@
         "artist" : "Rosa Linn", 
         "year" : 2022,
         "genres" : [
-            "Contemporary", "Soft-pop"
+            " Contemporary", " Soft-pop"
         ]
     },
     {
@@ -28,7 +28,7 @@
         "artist" : "Ruth B.", 
         "year" : 2017,
         "genres" : [
-            "Contemporary", "Soft-pop"
+            " Contemporary", " Soft-pop"
         ]
     },
     {
@@ -36,7 +36,7 @@
         "artist" : "Beyonce", 
         "year" : 2022,
         "genres" : [
-            "Pop"
+            " Pop"
         ]
     },
     {
@@ -44,7 +44,7 @@
         "artist" : "Nicki Minaj", 
         "year" : 2022,
         "genres" : [
-            "Pop"
+            " Pop"
         ]
     },
     {
@@ -52,7 +52,7 @@
         "artist" : "Lizzo", 
         "year" : 2022,
         "genres" : [
-            "Pop"
+            " Pop"
         ]
     },
     {
@@ -60,7 +60,7 @@
         "artist" : "Notorious B.I.G.", 
         "year" : 1994,
         "genres" : [
-            "Rap"
+            " Rap"
         ]
     },
     {
@@ -68,7 +68,7 @@
         "artist" : "Snoop Dogg", 
         "year" : 2004,
         "genres" : [
-            "Rap"
+            " Rap"
         ]
     },
     {
@@ -76,7 +76,7 @@
         "artist" : "Lil Jon", 
         "year" : 2010,
         "genres" : [
-            "Rap"
+            " Rap"
         ]
     },
     {
@@ -84,7 +84,7 @@
         "artist" : "Jeremy Zucker", 
         "year" : 2020,
         "genres" : [
-            "R and B"
+            " R and B"
         ]
     },
     {
@@ -92,7 +92,7 @@
         "artist" : "Chelsea Cutler", 
         "year" : 2017,
         "genres" : [
-            "Alternative"
+            " Alternative"
         ]
     }
 
