@@ -1,21 +1,60 @@
 <head>
     <meta charset="utf-8">
-    <title>JSong List JAON</title>
-        <script    src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Dangrek&display=swap');
+     </style>
+    <title>JSong List JSON</title>
+    <script    src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
  </head>
  <body>
-    <script language="javascript">
+    <div id="data"></div>
+    <br>
+    <form id="form">
+        <select id="genres">
+            <option value="All">All Genres</option>
+            <option value=" Pop">Pop</option>
+            <option value=" Soft-pop">Soft-pop</option>
+            <option value=" Contemporary">Contemporary</option>
+            <option value=" Rap">Rap</option>
+            <option value=" R and B">R and B</option>
+            <option value=" Alternative">Alternative</option>
+        </select>
+        <input id="button" type="button" value="Filter" style="background-color:white;">
+    </form>
+    <div id="list"></div>
+ </body>
+ <script>
+    function printSongs() {
         $.get( "https://pabba-n.github.io/jsonSongs/songList.json", 
-              function( data ) {
-                str = JSON.stringify(data)
+          function( data ) {
+            str = JSON.stringify(data);
+            document.getElementById("data").innerHTML = str;
             strHTML= "<ul>";
             data.forEach(function(song) { 
-            strHTML += "<br>" +
-                    "Title: " + song.title + "<br>" + "Artist: " 
+                
+                if($("#genres").val() == "All") {
+                    strHTML += "<br>" +
+                    "<h3 style=\"color:blue; font-family: 'Barlow Condensed'; font-size: 20px;\">" + song.title + "</h3>" + "Artist: " 
                     + song.artist + "<br>" + "Released: " + song.year + "<br>" + song.genres + "<br>";
-                }) 
-        strHTML += "</ul>";
-         document.write (strHTML);  /**/
+                } else {
+                        for(i=0; i<song.genres.length; i++) {
+                            if($("#genres").val() == song.genres[i]) {
+                                strHTML += "<br>" +
+                                    "<h3 style=\"color:blue; font-family: 'Barlow Condensed'; font-size: 20px;\">" + song.title + "</h3>" + "Artist: " 
+                                    + song.artist + "<br>" + "Released: " + song.year + "<br>" + song.genres + "<br>";
+                            }
+                        }
+                }
+            }) 
+            strHTML += "</ul>";
+            document.getElementById("list").innerHTML = strHTML;
         })
-    </script>
- </body>
+    }
+    
+    printSongs();
+
+    $("#button").on("click", function (){
+        printSongs();
+    })
+    
+</script>
